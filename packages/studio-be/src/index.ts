@@ -11,7 +11,7 @@ import metadata from './metadata.json'
 
 const printPlainError = (err) => {
   /* eslint-disable no-console */
-  console.log('Error starting botpress')
+  console.log('Error starting ChatO Studio')
   console.log(err)
   console.log(err.message)
   console.log('---STACK---')
@@ -93,11 +93,11 @@ try {
   require('yargs')
     .command(
       ['serve', '$0'],
-      'Start your botpress server',
+      'Start your ChatO Studio server',
       {
         dataFolder: {
           alias: ['d', 'data'],
-          description: 'Starts Botpress in standalone mode on that specific data folder',
+          description: 'Starts ChatO Studio in standalone mode on that specific data folder',
           type: 'string'
         }
       },
