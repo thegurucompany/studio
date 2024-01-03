@@ -101,7 +101,7 @@ async function start() {
     process.LOADED_MODULES[loadedModule.entryPoint.definition.name] = loadedModule.moduleLocation
   }
 
-  showBanner({ title: 'Botpress Studio', version: process.STUDIO_VERSION, logScopeLength: 9, bannerWidth: 75, logger })
+  showBanner({ title: 'ChatO Studio', version: process.STUDIO_VERSION, logScopeLength: 9, bannerWidth: 75, logger })
 
   if (!fs.existsSync(process.APP_DATA_PATH)) {
     try {
@@ -128,7 +128,7 @@ This is a fatal error, process will exit.`
   }
 
   await app.botpress.start({ modules: loadedModules.map((m) => m.entryPoint) }).catch((err) => {
-    logger.attachError(err).error('Error starting Botpress Studio')
+    logger.attachError(err).error('Error starting ChatO Studio')
 
     if (!process.IS_FAILSAFE) {
       process.exit(1)
