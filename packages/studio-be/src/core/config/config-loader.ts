@@ -133,12 +133,12 @@ export class ConfigProvider {
   public async getBrandingConfig(appName: 'admin' | 'studio') {
     const defaultConfig = {
       admin: {
-        title: 'Botpress Admin Panel',
+        title: 'ChatO Studio Admin Panel',
         favicon: 'assets/admin/ui/public/favicon.ico',
         customCss: ''
       },
       studio: {
-        title: 'Botpress Studio',
+        title: 'ChatO Studio',
         favicon: 'assets/studio/ui/public/img/favicon.png',
         customCss: ''
       }
