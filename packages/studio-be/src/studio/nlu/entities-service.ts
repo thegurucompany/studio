@@ -7,7 +7,7 @@ import { NLUService } from './nlu-service'
 
 const ENTITIES_DIR = './entities'
 
-// copied from ChatO Studio/nlu repo
+// copied from TheGurúCompany Studio/nlu repo
 const SYSTEM_ENTITIES = [
   'amountOfMoney',
   'distance',

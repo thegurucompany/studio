@@ -200,7 +200,7 @@ export class HTTPServer {
           return res
             .status(503)
             .send(
-              '<html><head><meta http-equiv="refresh" content="2"> </head><body>ChatO Studio is loading. Please try again in a minute.</body></html>'
+              '<html><head><meta http-equiv="refresh" content="2"> </head><body>TheGurúCompany Studio is loading. Please try again in a minute.</body></html>'
             )
         }
       }

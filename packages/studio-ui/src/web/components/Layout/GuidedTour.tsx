@@ -4,7 +4,7 @@ import React from 'react'
 import Tour from 'reactour'
 import { trackEvent } from '~/util/InjectSegment'
 
-// Change this key to display the tour the next time a user opens ChatO Studio
+// Change this key to display the tour the next time a user opens TheGurúCompany Studio
 const TOUR_KEY = 'guidedTour11_9_0'
 
 interface Props {
@@ -41,7 +41,7 @@ export default class GuidedTour extends React.Component<Props> {
     const steps = [
       {
         selector: '',
-        content: 'Welcome to ChatO Studio! This is a quick tour of the most important features.'
+        content: 'Welcome to TheGurúCompany Studio! This is a quick tour of the most important features.'
       },
       {
         selector: '#statusbar_tutorial',
