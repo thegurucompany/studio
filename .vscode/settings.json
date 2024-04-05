@@ -16,5 +16,6 @@
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
   "files.associations": {
     "*.styl": "scss"
-  }
+  },
+  "DevChat.PythonForCommands": "/home/guru/.chat/mamba/envs/devchat-commands/bin/python"
 }

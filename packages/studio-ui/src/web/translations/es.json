@@ -357,7 +357,7 @@
         "triggeredBy": "Se activa el flujo de trabajo",
         "workflowFails": "El flujo de trabajo falla",
         "workflowSucceeds": "El flujo de trabajo tiene éxito",
-        "errorInServer": "Parece haber un error en el servidor de ChatO Studio. Póngase en contacto con su administrador.",
+        "errorInServer": "Parece haber un error en el servidor de TheGurúCompany Studio. Póngase en contacto con su administrador.",
         "errorListingActions": "Error al enumerar las acciones del servidor de acciones",
         "errorListingActionsMore": "Se ha producido un error al intentar obtener la lista de acciones en el servidor seleccionado",
         "executeCode": "⚡ Ejecutar código",
